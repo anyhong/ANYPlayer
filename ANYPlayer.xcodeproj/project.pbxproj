@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F07EFEF20219E4E0011483E /* NSURL+ANYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07EFEE20219E4E0011483E /* NSURL+ANYAdd.m */; };
+		3F12B5D32024473100A1E761 /* ANYPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F12B5D22024473100A1E761 /* ANYPlayerControlView.m */; };
+		3F336E6C2017275C0017A2BA /* ANYRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F336E6B2017275C0017A2BA /* ANYRequestTask.m */; };
+		3F336E72201827800017A2BA /* ANYCacheHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F336E71201827800017A2BA /* ANYCacheHandle.m */; };
+		3F65B64B20216375005A6601 /* NSString+ANYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F65B64A20216375005A6601 /* NSString+ANYAdd.m */; };
+		3F6D5A14201B098F004AEE09 /* ANYRequestDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D5A13201B098F004AEE09 /* ANYRequestDataTask.m */; };
 		3FDBB5AB2015C8F500484FAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBB5AA2015C8F500484FAC /* AppDelegate.m */; };
 		3FDBB5AE2015C8F500484FAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBB5AD2015C8F500484FAC /* ViewController.m */; };
 		3FDBB5B12015C8F500484FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBB5AF2015C8F500484FAC /* Main.storyboard */; };
 		3FDBB5B32015C8F500484FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBB5B22015C8F500484FAC /* Assets.xcassets */; };
 		3FDBB5B62015C8F500484FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBB5B42015C8F500484FAC /* LaunchScreen.storyboard */; };
 		3FDBB5B92015C8F500484FAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBB5B82015C8F500484FAC /* main.m */; };
+		3FDBB5C62015C92400484FAC /* ANYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBB5C12015C92400484FAC /* ANYMainViewController.m */; };
+		3FDBB5E52015CAC200484FAC /* ANYPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBB5E42015CAC200484FAC /* ANYPlayer.m */; };
+		3FDBB5E82015CB8700484FAC /* ANYResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBB5E72015CB8700484FAC /* ANYResourceLoader.m */; };
+		3FDBB5F72015CDF900484FAC /* ANYPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBB5F62015CDF900484FAC /* ANYPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F07EFED20219E4E0011483E /* NSURL+ANYAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+ANYAdd.h"; sourceTree = "<group>"; };
+		3F07EFEE20219E4E0011483E /* NSURL+ANYAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+ANYAdd.m"; sourceTree = "<group>"; };
+		3F12B5D02024457E00A1E761 /* ANYPlayerControlDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANYPlayerControlDelegate.h; sourceTree = "<group>"; };
+		3F12B5D12024473100A1E761 /* ANYPlayerControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANYPlayerControlView.h; sourceTree = "<group>"; };
+		3F12B5D22024473100A1E761 /* ANYPlayerControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANYPlayerControlView.m; sourceTree = "<group>"; };
+		3F336E6A2017275C0017A2BA /* ANYRequestTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANYRequestTask.h; sourceTree = "<group>"; };
+		3F336E6B2017275C0017A2BA /* ANYRequestTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANYRequestTask.m; sourceTree = "<group>"; };
+		3F336E70201827800017A2BA /* ANYCacheHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANYCacheHandle.h; sourceTree = "<group>"; };
+		3F336E71201827800017A2BA /* ANYCacheHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANYCacheHandle.m; sourceTree = "<group>"; };
+		3F65B64920216375005A6601 /* NSString+ANYAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ANYAdd.h"; sourceTree = "<group>"; };
+		3F65B64A20216375005A6601 /* NSString+ANYAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ANYAdd.m"; sourceTree = "<group>"; };
+		3F6D5A12201B098F004AEE09 /* ANYRequestDataTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANYRequestDataTask.h; sourceTree = "<group>"; };
+		3F6D5A13201B098F004AEE09 /* ANYRequestDataTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANYRequestDataTask.m; sourceTree = "<group>"; };
 		3FDBB5A62015C8F500484FAC /* ANYPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANYPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDBB5A92015C8F500484FAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FDBB5AA2015C8F500484FAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +49,14 @@
 		3FDBB5B52015C8F500484FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FDBB5B72015C8F500484FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FDBB5B82015C8F500484FAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FDBB5C02015C92400484FAC /* ANYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANYMainViewController.h; sourceTree = "<group>"; };
+		3FDBB5C12015C92400484FAC /* ANYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANYMainViewController.m; sourceTree = "<group>"; };
+		3FDBB5E32015CAC200484FAC /* ANYPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANYPlayer.h; sourceTree = "<group>"; };
+		3FDBB5E42015CAC200484FAC /* ANYPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANYPlayer.m; sourceTree = "<group>"; };
+		3FDBB5E62015CB8700484FAC /* ANYResourceLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANYResourceLoader.h; sourceTree = "<group>"; };
+		3FDBB5E72015CB8700484FAC /* ANYResourceLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANYResourceLoader.m; sourceTree = "<group>"; };
+		3FDBB5F52015CDF900484FAC /* ANYPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANYPlayerViewController.h; sourceTree = "<group>"; };
+		3FDBB5F62015CDF900484FAC /* ANYPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANYPlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +70,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F7354EC2028347000866843 /* ANYLoader */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBB5E62015CB8700484FAC /* ANYResourceLoader.h */,
+				3FDBB5E72015CB8700484FAC /* ANYResourceLoader.m */,
+				3F336E6A2017275C0017A2BA /* ANYRequestTask.h */,
+				3F336E6B2017275C0017A2BA /* ANYRequestTask.m */,
+				3F6D5A12201B098F004AEE09 /* ANYRequestDataTask.h */,
+				3F6D5A13201B098F004AEE09 /* ANYRequestDataTask.m */,
+				3F336E70201827800017A2BA /* ANYCacheHandle.h */,
+				3F336E71201827800017A2BA /* ANYCacheHandle.m */,
+			);
+			path = ANYLoader;
+			sourceTree = "<group>";
+		};
+		3F7354ED2028387100866843 /* ANYCategory */ = {
+			isa = PBXGroup;
+			children = (
+				3F65B64920216375005A6601 /* NSString+ANYAdd.h */,
+				3F65B64A20216375005A6601 /* NSString+ANYAdd.m */,
+				3F07EFED20219E4E0011483E /* NSURL+ANYAdd.h */,
+				3F07EFEE20219E4E0011483E /* NSURL+ANYAdd.m */,
+			);
+			path = ANYCategory;
+			sourceTree = "<group>";
+		};
 		3FDBB59D2015C8F500484FAC = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +115,10 @@
 		3FDBB5A82015C8F500484FAC /* ANYPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				3FDBB5DC2015C9D100484FAC /* ANYPlayer */,
+				3F7354EC2028347000866843 /* ANYLoader */,
+				3F7354ED2028387100866843 /* ANYCategory */,
+				3FDBB5BF2015C92400484FAC /* Main */,
 				3FDBB5A92015C8F500484FAC /* AppDelegate.h */,
 				3FDBB5AA2015C8F500484FAC /* AppDelegate.m */,
 				3FDBB5AC2015C8F500484FAC /* ViewController.h */,
@@ -67,6 +128,29 @@
 				3FDBB5B42015C8F500484FAC /* LaunchScreen.storyboard */,
 				3FDBB5B72015C8F500484FAC /* Info.plist */,
 				3FDBB5B82015C8F500484FAC /* main.m */,
+			);
+			path = ANYPlayer;
+			sourceTree = "<group>";
+		};
+		3FDBB5BF2015C92400484FAC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBB5F52015CDF900484FAC /* ANYPlayerViewController.h */,
+				3FDBB5F62015CDF900484FAC /* ANYPlayerViewController.m */,
+				3F12B5D12024473100A1E761 /* ANYPlayerControlView.h */,
+				3F12B5D22024473100A1E761 /* ANYPlayerControlView.m */,
+				3FDBB5C02015C92400484FAC /* ANYMainViewController.h */,
+				3FDBB5C12015C92400484FAC /* ANYMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3FDBB5DC2015C9D100484FAC /* ANYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3F12B5D02024457E00A1E761 /* ANYPlayerControlDelegate.h */,
+				3FDBB5E32015CAC200484FAC /* ANYPlayer.h */,
+				3FDBB5E42015CAC200484FAC /* ANYPlayer.m */,
 			);
 			path = ANYPlayer;
 			sourceTree = "<group>";
@@ -142,9 +226,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F65B64B20216375005A6601 /* NSString+ANYAdd.m in Sources */,
+				3F6D5A14201B098F004AEE09 /* ANYRequestDataTask.m in Sources */,
 				3FDBB5AE2015C8F500484FAC /* ViewController.m in Sources */,
+				3F07EFEF20219E4E0011483E /* NSURL+ANYAdd.m in Sources */,
+				3F336E6C2017275C0017A2BA /* ANYRequestTask.m in Sources */,
 				3FDBB5B92015C8F500484FAC /* main.m in Sources */,
+				3F12B5D32024473100A1E761 /* ANYPlayerControlView.m in Sources */,
+				3FDBB5F72015CDF900484FAC /* ANYPlayerViewController.m in Sources */,
+				3FDBB5E82015CB8700484FAC /* ANYResourceLoader.m in Sources */,
+				3F336E72201827800017A2BA /* ANYCacheHandle.m in Sources */,
+				3FDBB5C62015C92400484FAC /* ANYMainViewController.m in Sources */,
 				3FDBB5AB2015C8F500484FAC /* AppDelegate.m in Sources */,
+				3FDBB5E52015CAC200484FAC /* ANYPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

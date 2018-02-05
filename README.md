@@ -1,0 +1,1 @@
+iOS平台下 AVAssetResourceLoader + AVPlayer 实现边下边播播放器。
